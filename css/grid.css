@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+	position: center;
+}
+
+
+th {
+	color: #F08180;
+	font-size:38px;
+	 text-shadow: 2px 1px #E2F5FF;
+
+}
+
+td {
+	color: #8C888A;
+	font-size: 20px;
+
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1.5px solid #F08180;
+}
+
+
+.thumbnail:hover {
+    position:relative;
+    top:10px;
+    left:-35px;
+    bottom:15px;
+    right: -35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
